@@ -1,2 +1,2 @@
 # Meta-Reinforcement-Learning-for-Heuristic-Planning
-This repository contains code used in the paper [Meta Reinforcement Learning for Heuristic Planning](https://arxiv.org/abs/2107.02603)
+This repository contains code used in the paper [Meta Reinforcement Learning for Heuristic Planning](https://arxiv.org/abs/2107.02603). For the task selection method used in the paper please refer to: [ITTS](https://github.com/RicardoLunaG/ITTS).
