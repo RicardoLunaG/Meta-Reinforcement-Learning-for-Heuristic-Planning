@@ -3,8 +3,8 @@ import numpy as np
 import tensorflow as tf
 import copy
 
-from RL2_Model import PPOTrain
-from Blocks_Env import Blocks_Env
+from rl2_model import PPOTrain
+from envs.blocks_env import Blocks_Env
 
 from scipy.stats import entropy
 from utils import PriorityQueue
