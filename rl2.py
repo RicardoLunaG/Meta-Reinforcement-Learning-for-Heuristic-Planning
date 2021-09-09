@@ -6,8 +6,8 @@ import time
 from multiprocessing import Process, Pipe
 import threading
 
-from RL2_Model import PPOTrain
-from Blocks_Env import Blocks_Env
+from rl2_model import PPOTrain
+from Envs.Blocks_Env import Blocks_Env
 
 import time
 
