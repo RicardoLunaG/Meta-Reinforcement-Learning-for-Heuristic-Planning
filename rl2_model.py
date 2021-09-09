@@ -144,12 +144,12 @@ class PPOTrain:
         old_pi_trainable = old_trainable
         
         
-        with tf.variable_scope('Assign_Operator'):
-            self.assign_ops = []
-            for v_old, v in zip(old_pi_trainable, pi_trainable):
-                self.assign_ops.append(tf.assign(v_old,v))
+       
+        self.assign_ops = []
+        for v_old, v in zip(old_pi_trainable, pi_trainable):
+            self.assign_ops.append(tf.assign(v_old,v))
         
-        with tf.variable_scope('Inputs_Train'):
+        with tf.variable_scope('inputs'):
             self.actions = tf.placeholder(tf.int32, [None], "Actions")
             self.rewards = tf.placeholder(tf.float32, [None], "Rewards")
             self.v_next = tf.placeholder(tf.float32, [None], "Value_Next")
