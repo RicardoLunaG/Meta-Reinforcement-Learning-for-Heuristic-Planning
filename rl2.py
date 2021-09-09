@@ -7,7 +7,7 @@ from multiprocessing import Process, Pipe
 import threading
 
 from rl2_model import PPOTrain
-from Envs.Blocks_Env import Blocks_Env
+from envs.blocks_env import Blocks_Env
 
 import time
 
